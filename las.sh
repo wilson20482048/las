@@ -1,3 +1,4 @@
 !#/bin/bash
 apt-get install toilet
-alias las="toilet 'po chuj mi las'"
+echo 'alias las="toilet 'po chuj mi las'"' > /root/.bashrc
+. /root/.bashrc
